@@ -1,0 +1,64 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-family: monospace;
+    font-size: 100%;
+    background: rgb(32, 32, 36);
+  }
+
+  a {
+    color: rgb(235, 235, 235);
+  }
+
+  .header {
+    width: 30%;
+    margin: 300px auto 0px;
+    color: rgb(235, 235, 235);
+    background: rgb(56, 56, 56);
+    text-align: left;
+    font-size: 85%;
+    border: 1px solid rgb(142, 43, 255);
+    border-bottom: none;
+    padding: 5px;
+  }
+  form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 5px;
+    border: 1px solid rgb(142, 43, 255);
+    background: rgb(34, 34, 34);
+  }
+  .input label {
+    color:rgb(235, 235, 235);
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input input {
+    color: rgb(235, 235, 235);
+    background-color: rgb(32, 32, 36);
+    height: 10px;
+    width: 96%;
+    padding: 5px 10px;
+    font-family: monospace;
+    font-size: 16px;
+    border: 1px solid rgb(84, 82, 87);
+  }
+  .btn {
+    margin: 10px auto 0px;
+    padding: 5px;
+    font-size: 12px;
+    font-family: monospace;
+    color: rgb(235, 235, 235);
+    background: rgb(56, 56, 56);
+    border: 0px solid rgb(142, 43, 255);
+    border-bottom: none;
+  }
+
+  .switch{
+    margin: 5px auto 0px;
+    color: rgb(235, 235, 235);
+  }
+  
