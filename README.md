@@ -21,7 +21,7 @@ The following table is in chronological order:
 | Simple Login Page | X |
 | Multiplayer functionality in a Game | ? |
 | Huffman-based Compression/Decompression | O |
-| Web-based Hotel Reservation Systme | X |
+| Web-based Hotel Reservation System | X |
 | Implementation of Concurrent Linked Lists | ? |
 | ? | ? |
 
