@@ -18,7 +18,7 @@ The following table is in chronological order:
 | Turing Machine | O | C++ |
 | Simple Shell | X | C |
 | Multi-threaded Matrix Multiplication and Merge Sort | X | C |
-| Client-Server with Sockets | O | Python |
+| Simple Client-Server Network with Sockets | O | Python |
 | Simple Login Page | O | PHP, JS |
 | Huffman-based Compression/Decompression | O | Rust |
 | ? | ? | ? |
