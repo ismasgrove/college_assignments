@@ -15,6 +15,7 @@ The following table is in chronological order:
 | SIC Assembler | O | Java |
 | PASCAL compiler | O | Java |
 | Implementation of Red-Black Trees | X | C++ |
+| Turing Machine | O | C++ |
 | Simple Shell | X | C |
 | Multi-threaded Matrix Multiplication and Merge Sort | X | C |
 | Client-Server with Sockets | O | Python |
