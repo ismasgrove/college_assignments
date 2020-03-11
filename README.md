@@ -9,16 +9,16 @@ The following table is in chronological order:
 | Task name | Available | Language |
 | ------ | ------ | ------ |
 | Telephone book | X | C |
-| Paint | O | Java |
+| Paint | ? | Java |
 | XML Database | O | Java |
-| A Circus of Plates | O | Java |
-| SIC Assembler | O | Java |
-| PASCAL compiler | O | Java |
+| A Circus of Plates | ? | Java |
+| SIC Assembler | ? | Java |
+| PASCAL compiler | ? | Java |
 | Implementation of Red-Black Trees | X | C++ |
 | Turing Machine | O | C++ |
 | Simple Shell | X | C |
 | Multi-threaded Matrix Multiplication and Merge Sort | X | C |
-| Simple Client-Server Network with Sockets | O | Python |
+| Simple Client-Server Network with Sockets | ? | Python |
 | Simple Login Page | O | PHP, JS |
 | Huffman-based Compression/Decompression | O | Rust |
 | ? | ? | ? |
