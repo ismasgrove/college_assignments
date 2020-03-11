@@ -22,7 +22,7 @@ The following table is in chronological order:
 | Multiplayer functionality in a Game | ? |
 | Huffman-based Compression/Decompression | O |
 | Web-based Hotel Reservation Systme | X |
-| Implementatino of Concurrent Linked Lists | ? |
+| Implementation of Concurrent Linked Lists | ? |
 | ? | ? |
 
 The projects themselves will be added as soon as I have time to dig them out.
