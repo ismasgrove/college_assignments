@@ -6,22 +6,20 @@ Of course, there are some assignments that I'm neglecting such as trivial compet
 
 The following table is in chronological order:
 
-| Task name | Available |
+| Task name | Available | Language |
 | ------ | ------ |
-| Telephone book | X |
-| Paint | O | 
-| XML Database | O |
-| A Circus of Plates | O | 
-| SIC Assembler | O |
-| PASCAL compiler | O |
-| Implementation of Red-Black Trees | X |
-| Simple Shell | X |
-| Multi-threaded Matrix Multiplication and Merge Sort | X |
-| Client-Server with Sockets | O |
-| Simple Login Page | X |
-| Multiplayer Functionality in a Game | ? |
-| Huffman-based Compression/Decompression | O |
-| Web-based Hotel Reservation System | X |
-| ? | ? |
+| Telephone book | X | C |
+| Paint | O | Java |
+| XML Database | O | Java |
+| A Circus of Plates | O | Java |
+| SIC Assembler | O | Java |
+| PASCAL compiler | O | Java |
+| Implementation of Red-Black Trees | X | C++ |
+| Simple Shell | X | C |
+| Multi-threaded Matrix Multiplication and Merge Sort | X | C |
+| Client-Server with Sockets | O | Python |
+| Simple Login Page | O | PHP, JS |
+| Huffman-based Compression/Decompression | O | Rust |
+| ? | ? | ? |
 
 The projects themselves will be added as soon as I have time to dig them out.
