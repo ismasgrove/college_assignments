@@ -7,7 +7,7 @@ Of course, there are some assignments that I'm neglecting such as trivial compet
 The following table is in chronological order:
 
 | Task name | Available | Language |
-| ------ | ------ |
+| ------ | ------ | ------ |
 | Telephone book | X | C |
 | Paint | O | Java |
 | XML Database | O | Java |
