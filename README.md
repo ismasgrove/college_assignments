@@ -21,6 +21,6 @@ The following table is in chronological order:
 | Simple Client-Server Network with Sockets | ? | Python |
 | Simple Login Page | O | PHP, JS |
 | Huffman-based Compression/Decompression | O | Rust |
-| ? | ? | ? |
+| First Computer Graphics Assignment | O | C++ |
 
 The projects themselves will be added as soon as I have time to dig them out.
