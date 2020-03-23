@@ -1,6 +1,6 @@
 # college_assignments
 
-Some of the assignments I've done during my college years. Sadly I'm not am unfortunate combination of a perfectionist and 'not' a software hoarder, which means I had a tendency to delete my finished work, in which case I'll note that such a project is nowhere to be found.
+Some of the assignments I've done during my college years. Sadly I'm an unfortunate combination of a perfectionist and 'not' a software hoarder, which means I had a tendency to delete my finished work, in which case I'll note that such a project is nowhere to be found.
 
 Of course, there are some assignments that I'm neglecting such as trivial competitive programming problems and implementations of simple algorithms. Perhaps some I'm forgetting altogether. The reason why I'm grouping all of these in one repository is that I've gotten much better as a software developer since then.
 
