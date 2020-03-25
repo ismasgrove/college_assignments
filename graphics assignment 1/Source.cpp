@@ -1,13 +1,15 @@
 #include <iostream>
+#include <vector>
+
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+
 #include "Shader.h"
 #include "Shape.h"
 #include "A2D.h"
 #include "N3D.h"
 #include "Graph.h"
 #include "Chart.h"
-#include <vector>
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void processInput(GLFWwindow* window);
@@ -41,7 +43,7 @@ auto main() -> int {
 	unsigned int VAO[4], VBO[4];
 	glGenVertexArrays(4, VAO);
 	glGenBuffers(4, VBO);
-	std::vector<Shape*> shapes = { new A2D(VAO[0], VBO[0]), new N3D(VAO[1], VBO[1]),
+	std::vector<Shape*> shapes = {new A2D(VAO[0], VBO[0]), new N3D(VAO[1], VBO[1]),
 		new Graph(VAO[2], VBO[2]), new Chart(VAO[3], VBO[3]) };
 	//
 	Shape* shapePointer = shapes.at(index);
@@ -61,6 +63,9 @@ auto main() -> int {
 		glfwSwapBuffers(window);
 		glfwPollEvents();
 	}
+
+	for (auto& shapeObj : shapes)
+		delete shapeObj;
 
 	glDeleteVertexArrays(4, VAO);
 	glDeleteBuffers(4, VBO);
