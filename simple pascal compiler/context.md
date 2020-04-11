@@ -1,0 +1,1 @@
+I have no idea if this was the full version or not. This was written at a time when source control was.. ignored and we had files floating all over the place, just like the code haha.
