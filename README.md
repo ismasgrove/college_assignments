@@ -11,9 +11,9 @@ The following table is in chronological order:
 | Telephone book | X | C |
 | Paint | ? | Java |
 | XML Database | O | Java |
-| A Circus of Plates | ? | Java |
-| SIC Assembler | ? | Java |
-| PASCAL compiler | ? | Java |
+| A Circus of Plates | O | Java |
+| SIC Assembler | O | Java |
+| PASCAL compiler | O | Java |
 | Implementation of Red-Black Trees | X | C++ |
 | Turing Machine | O | C++ |
 | Simple Shell | X | C |
