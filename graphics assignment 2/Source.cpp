@@ -12,16 +12,6 @@
 
 #include "Shader.h"
 
-/*
-	this code is written in OpenGL Core Profile using GLM and GLFW libraries and uses Vertex Buffer Objects for increased performance.
-*/
-
-
-/*
-	I made this struct only so I could override '<' and use the STL sort() function
-	so the points are sorted in counter clockwise order
-	std::sort() only requires '<' to be implemented so there was no need for the rest
-*/
 struct Point {
 	float _x, _y, _z=0;
 	Point(float x, float y) {
@@ -82,7 +72,6 @@ private:
 			_vertices.push_back(p._z);
 		}
 	}
-	//what I waas talking about earlier
 	void sort() {
 		std::sort(_points.rbegin(), _points.rend());
 	}
