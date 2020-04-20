@@ -22,5 +22,6 @@ The following table is in chronological order:
 | Simple Login Page | O | PHP, JS |
 | Huffman-based Compression/Decompression | O | Rust |
 | First Computer Graphics Assignment | O | C++ |
+| Second Computer Graphics Assignment | O | C++ |
 
 The projects themselves will be added as soon as I have time to dig them out.
