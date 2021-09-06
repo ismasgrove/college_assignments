@@ -17,8 +17,9 @@ The following table is in chronological order:
 | Turing Machine                                                                                         | O         | C++      |
 | Simple Shell                                                                                           | X         | C        |
 | Multi-threaded Matrix Multiplication and Merge Sort                                                    | X         | C        |
-| Simple Client-Server Network with Sockets                                                              | O         | Python   |
 | Simple Login Page                                                                                      | O         | PHP, JS  |
+| Hotel Reservation System                                                                               | O         | PHP, JS  |
+| Simple Client-Server Network with Sockets                                                              | O         | Python   |
 | Huffman-based Compression/Decompression                                                                | O         | Rust     |
 | First Computer Graphics Assignment (Setting up a render pipeline and rendering anything with vertices) | O         | C++      |
 | Second Computer Graphics Assignment (Circle rasterization algorithm)                                   | O         | C++      |
