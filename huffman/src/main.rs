@@ -1,4 +1,3 @@
-use std::boxed::Box;
 use std::char;
 use std::cmp::Ordering;
 use std::cmp::PartialOrd;
@@ -16,6 +15,7 @@ use std::io::Read;
 use std::path::Path;
 use std::str;
 use std::u32;
+use std::{boxed::Box, time::Instant};
 extern crate time;
 use time::PreciseTime;
 
@@ -638,15 +638,12 @@ fn main() {
     if operation == 1 {
         match filetype.as_ref() {
             ".txt" => {
-                let start = PreciseTime::now();
+                let start = Instant::now();
                 let contents =
                     fs::read_to_string(filename).expect("Something went wrong reading the file");
                 compress(contents, output.clone(), filetype.clone());
-                let end = PreciseTime::now();
-                println!(
-                    "Time of compression: {}",
-                    start.to(end).num_microseconds().unwrap()
-                );
+                let duration = start.elapsed();
+                println!("Time of compression: {}", duration.as_secs_f32());
             }
             "folder" => folder_compression(filename.to_string(), output.clone()),
             _ => return,
@@ -656,17 +653,14 @@ fn main() {
         match filetype.as_ref() {
             ".hoff" => {
                 if !is_folder(filename.to_string()) {
-                    let start = PreciseTime::now();
+                    let start = Instant::now();
                     decompress(
                         filename.to_string(),
                         decompressed_file,
                         is_binary(filename.to_string()),
                     );
-                    let end = PreciseTime::now();
-                    println!(
-                        "Time of decompression: {}",
-                        start.to(end).num_microseconds().unwrap()
-                    );
+                    let duration = start.elapsed();
+                    println!("Time of decompression: {}", duration.as_secs_f32());
                 } else {
                     let folder_name = output.replace(".hoff", "");
                     folder_decompression(filename.to_string(), folder_name);
